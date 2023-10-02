@@ -3,20 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sampa View</title>
 </head>
 <body>
     <header>
         <div class="NavBar">
-
-        </div><!--NavBar-->
+        <nav>
+            <a class="logo" href="/">SAMPA VIEW</a>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Explore SP</a></li>
+              <li><a href="#">Sobre nós</a></li>
+            </ul>
+          </nav>
+        </div><!--Nav bar-->
     </header>
     <main>
         <div class="LandingPage">
 
         </div><!--LandingPage-->
         <div class="Ilha">
-
+            <div class="Masp">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.427/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/Q0zF-seRoZNW5KvR/scene.splinecode"></spline-viewer>
+            </div><!---->
         </div><!--Illha-->
         <div class="Contact">
 
@@ -25,5 +41,6 @@
     <footer>
         
     </footer>
+    <script src="js.js"></script>
 </body>
 </html>
