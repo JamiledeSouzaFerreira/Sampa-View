@@ -1,58 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Sampa View</title>
+    <title>Sobre Nós</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <link href="about.css" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@700&display=swap');
+    </style>
 </head>
+
 <body>
-    <header>
-        <div class="NavBar">
-        <nav>
-            <a class="logo" href="/"><img src="logo.png" alt="" width="130px"></a>
-            <div class="mobile-menu">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
-              <li><a href="#">Início</a></li>
-              <li><a href="#">Explore SP</a></li>
-              <li><a href="#">Sobre nós</a></li>
-            </ul>
-          </nav>
-        </div><!--Nav bar-->
-      </header>
-    <main>
-            <div class="LandingPage">
-              <div class="img-container"> <!-- IMAGEM DE FUNDO -->
-                <section class="hero-wrapper"> <!-- WRAPPER DOS TEXTOS E BOTÕES DO CENTRO -->
-                    <div class="headertext-wrapper"> <!-- 2 TEXTOS DE CIMA -->
-                        <div class="herotext-wrapper">
-                            <text class="hero-text">Conheça <span class="redhero-text">São Paulo</span></text>
-                            <p class="hero-paragraph">Descubra e explore os destinos turísticos mais emblemáticos de São Paulo em 3D imersivo. Desde as ruas movimentadas da Avenida Paulista até as vistas deslumbrantes do Pão de Açúcar, nossos passeios em 3D permitem que você conheça a cidade como nunca antes.</p>
-                        </div>
-                      <!--  <div class="buttons-wrapper">  BOTÕES 
-                            <button class="aboutus-button">Sobre Nós</button>
-                            <button class="explore-button">Explorar</button>
-                        </div> -->
-                    </div>
-                </section>
-            </div>
-        </div><!--LandingPage-->
-
-        <div class="Island">
-            <!--MASP-->
-            <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.427/build/spline-viewer.js"></script>
-            <spline-viewer url="https://prod.spline.design/Q0zF-seRoZNW5KvR/scene.splinecode"></spline-viewer>
-            <!--Museo da Casa Brasileira
-                <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.437/build/spline-viewer.js"></script>
-                <spline-viewer url="https://prod.spline.design/MiHzdYysDCLkVUMC/scene.splinecode"></spline-viewer>
-        </div>Illha-->
-
-        <div class="About Us">
-          <div class="img-container">
+    <section class="faq-section">
+        <div class="img-container">
             <div class="faq-wrapper">
                 <div class="question-wrapper">
                     <details>
@@ -93,23 +55,24 @@
                 </div>
             </div>
         </div>
-        </div><!--About Us-->
-    </main>
-    <footer>
-      <section class="footer-section"> <!-- SEÇÃO DO FOOTER -->
+    </section>
+
+    <section class="footer-section"> <!-- SEÇÃO DO FOOTER -->
         <div class="footer-infos"> <!-- WRAPPER DOS TEXTOS E LOGO DO FOOTER -->
-            <div class="footer-logo"><picture><img src="/img/logo.png" alt="SampaView Logo" width="110" height="63"></picture></div>
+            <div class="footer-logo">
+                <picture><img src="/img/logo.png" alt="SampaView Logo" width="110" height="63"></picture>
+            </div>
             <div class="footer-text-wrapper"> <!-- WRAPPER DOS LINKS PARA AS OUTRA PÁGINAS -->
-                <a class="footer-text" href="about.html">Sobre Nós</a>
-                <a class="footer-text" href="">Explorar</a>
-                <a class="footer-text" href="index.html">Início</a>
+                <a class="footer-text" href="about.html">Sobre Nós</a> <!-- SOBRE NÓS -->
+                <a class="footer-text" href="explore.html">Explorar</a> <!-- PÁGINA DOS MODELOS -->
+                <a class="footer-text" href="index.html">Início</a> <!-- LANDING PAGE -->
                 <a class="footer-text" href="">Faculdade</a>
             </div>
-            
+
             <text class="footer-text"><span class="grayfooter-text">Copyright © 2023. Sampaview. Todos os direitos reservados.</span></text> <!-- COPYRIGHT -->
         </div>
-</section>
-    </footer>
-    <script src="file.js"></script>
+    </section>
+
 </body>
+
 </html>
