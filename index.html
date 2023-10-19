@@ -33,39 +33,80 @@
                             <text class="hero-text">Conheça <span class="redhero-text">São Paulo</span></text>
                             <p class="hero-paragraph">Descubra e explore os destinos turísticos mais emblemáticos de São Paulo em 3D imersivo. Desde as ruas movimentadas da Avenida Paulista até as vistas deslumbrantes do Pão de Açúcar, nossos passeios em 3D permitem que você conheça a cidade como nunca antes.</p>
                         </div>
-                        <div class="buttons-wrapper"> <!-- BOTÕES -->
+                      <!--  <div class="buttons-wrapper">  BOTÕES 
                             <button class="aboutus-button">Sobre Nós</button>
                             <button class="explore-button">Explorar</button>
-                        </div>
+                        </div> -->
                     </div>
                 </section>
             </div>
-       
-  
-        <section class="footer-section"> <!-- SEÇÃO DO FOOTER -->
-                <div class="footer-infos"> <!-- WRAPPER DOS TEXTOS E LOGO DO FOOTER -->
-                    <div class="footer-logo"><picture><img src="/img/logo.png" alt="SampaView Logo" width="110" height="63"></picture></div>
-                    <div class="footer-text-wrapper"> <!-- WRAPPER DOS LINKS PARA AS OUTRA PÁGINAS -->
-                        <a class="footer-text" href="about.html">Sobre Nós</a>
-                        <a class="footer-text" href="">Explorar</a>
-                        <a class="footer-text" href="index.html">Início</a>
-                        <a class="footer-text" href="">Faculdade</a>
-                    </div>
-                    
-                    <text class="footer-text"><span class="grayfooter-text">Copyright © 2023. Sampaview. Todos os direitos reservados.</span></text> <!-- COPYRIGHT -->
-                </div>
-        </section>
         </div><!--LandingPage-->
+
         <div class="Island">
             <div class="Masp">
-            </div><!---->
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.427/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/Q0zF-seRoZNW5KvR/scene.splinecode"></spline-viewer>
+            </div>
         </div><!--Illha-->
-        <div class="Contact">
 
-        </div><!--Contact-->
+        <div class="About Us">
+          <div class="img-container">
+            <div class="faq-wrapper">
+                <div class="question-wrapper">
+                    <details>
+                        <summary class="question-title">Quem somos <span class="white-text">nós?</span></summary>
+                        <p class="question-answer">Nós somos um grupo de estudantes universitários e estamos envolvidos
+                            em um projeto acadêmico. Estamos criando um site que utiliza tecnologias como HTML, CSS e
+                            JavaScript, com a biblioteca Three.js.</p>
+                    </details>
+                </div>
+                <div class="question-wrapper">
+                    <details>
+                        <summary class="question-title"><span class="white-text">Por que</span> este projeto foi criado?</summary>
+                        <p class="question-answer">Este projeto foi criado como parte de nosso curso universitário para
+                            aplicar e aprimorar nossas habilidades em programação, design web e tecnologias 3D, como o
+                            Three.js. Além disso, queremos contribuir de forma positiva, fornecendo um recurso online
+                            que permite aos usuários explorar e aprender sobre os pontos turísticos no estado de São
+                            Paulo de uma maneira interativa e envolvente. É uma oportunidade de combinar nossa paixão
+                            por tecnologia com a promoção do turismo e do patrimônio cultural da região.</p>
+                    </details>
+                </div>
+                <div class="question-wrapper">
+                    <details>
+                        <summary class="question-title">Como posso <span class="white-text">contribuir?</span></summary>
+                        <p class="question-answer">É importante destacar que a ideia de tornar o projeto open-source é
+                            uma consideração futura e ainda não está implementada. No momento, o projeto não está
+                            disponível como um repositório open-source no GitHub. Portanto, a capacidade de contribuir
+                            ainda não está ativa, mas estamos considerando essa possibilidade para o futuro. Estamos
+                            entusiasmados com a ideia de abrir o projeto para contribuições externas, mas ainda não
+                            chegamos a esse estágio. Fique atento para futuras atualizações e anúncios quando decidirmos
+                            avançar nessa direção.</p>
+                    </details>
+                </div>
+                <div class="question-wrapper">
+                    <details>
+                        <summary class="question-title">Conheça a <span class="white-text">FSA</span></summary>
+                        <p class="question-answer">Acesse o site da nossa faculdade, e conheça nossos mais variados cursos!</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+        </div><!--About Us-->
     </main>
     <footer>
-        
+      <section class="footer-section"> <!-- SEÇÃO DO FOOTER -->
+        <div class="footer-infos"> <!-- WRAPPER DOS TEXTOS E LOGO DO FOOTER -->
+            <div class="footer-logo"><picture><img src="/img/logo.png" alt="SampaView Logo" width="110" height="63"></picture></div>
+            <div class="footer-text-wrapper"> <!-- WRAPPER DOS LINKS PARA AS OUTRA PÁGINAS -->
+                <a class="footer-text" href="about.html">Sobre Nós</a>
+                <a class="footer-text" href="">Explorar</a>
+                <a class="footer-text" href="index.html">Início</a>
+                <a class="footer-text" href="">Faculdade</a>
+            </div>
+            
+            <text class="footer-text"><span class="grayfooter-text">Copyright © 2023. Sampaview. Todos os direitos reservados.</span></text> <!-- COPYRIGHT -->
+        </div>
+</section>
     </footer>
     <script src="file.js"></script>
 </body>
