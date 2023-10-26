@@ -2,7 +2,9 @@
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
-
+p{
+  font-size: 1rem;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -19,7 +21,7 @@ body {
     margin: 0;
     display: flex;
     background-color: #08090C;
-    background: url('/img/saopaulo.jpg');
+    background: url('img-fundo.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,7 +61,7 @@ body {
     color: #EAEAEA;
 }
 
-
+/*footer*/
 .footer-section {
     width: 100%;
     height: 32vh;
@@ -133,19 +135,12 @@ a {
     opacity: 0.7;
   }
   
-  .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
-  
   nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #23232e;
-    height: 8vh;
+    background-color: #181818;
+    height: 12vh;
   }
   
   .nav-list {
@@ -181,7 +176,7 @@ a {
       right: 0;
       width: 50vw;
       height: 92vh;
-      background: #23232e;
+    background-color: #181818;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
